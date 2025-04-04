@@ -1,0 +1,9 @@
+def solution(a, b):
+    x = str(a)+str(b)
+    y = 2*a*b
+    if int(x) > y:
+        return int(x)
+    elif int(x) == y:
+        return int(x)
+    else:
+        return y
